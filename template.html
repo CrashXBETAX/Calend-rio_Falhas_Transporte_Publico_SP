@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            width: 1200px;
+            margin: 0 auto;
+        }
+        p {
+            color:{color};
+        }
+        .container {
+            display: flex;
+            align-items: center;
+        }
+
+        .Logo_Empresa {
+            width: 500px;
+            margin: 20px;
+        }
+
+        .Texto_Historico_Falha {
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: xx-large;
+            margin-left: 250px;
+        }
+
+        .Nome_Linha {
+            margin-left: 50px;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: x-large;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 0px;
+            align-items: center;
+            justify-items: center;
+        }
+
+        .grid-item {
+            width: 250px;
+            text-align: center;
+        }
+
+        .month-name {
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: x-large;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="./Image/{empresa}.svg" class="Logo_Empresa">
+        <p class="Texto_Historico_Falha">Histórico de falha do {ano}</p>
+    </div>
+    <div class="container">
+        <p class="Nome_Linha">{Nome_Linha}</p>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item">
+            <p class="month-name">Janeiro</p>
+            <img width="250" src="./{num}/historico_de_falhas_de_{num}_{ano}_January.png">
+        </div>
+        <div class="grid-item">
+            <p class="month-name">Fevereiro</p>
+            <img width="250" src="./{num}/historico_de_falhas_de_{num}_{ano}_February.png">
+        </div>
+        <div class="grid-item">
+            <p class="month-name">Março</p>
+            <img width="250" src="./{num}/historico_de_falhas_de_{num}_{ano}_March.png">
+        </div>
+        <div class="grid-item">
+            <p class="month-name">Abril</p>
+            <img width="250" src="./{num}/historico_de_falhas_de_{num}_{ano}_April.png">
+        </div>
+        <div class="grid-item">
+            <p class="month-name">Maio</p>
+            <img width="250" src="./{num}/historico_de_falhas_de_{num}_{ano}_May.png">
+        </div>
+        <div class="grid-item">
+            <p class="month-name">Junho</p>
+            <img width="250" src="./{num}/historico_de_falhas_de_{num}_{ano}_June.png">
+        </div>
+        <div class="grid-item">
+            <p class="month-name">Julho</p>
+            <img width="250" src="./{num}/historico_de_falhas_de_{num}_{ano}_July.png">
+        </div>
+        <div class="grid-item">
+            <p class="month-name">Agosto</p>
+            <img width="250" src="./{num}/historico_de_falhas_de_{num}_{ano}_August.png">
+        </div>
+        <div class="grid-item">
+            <p class="month-name">Setembro</p>
+            <img width="250" src="./{num}/historico_de_falhas_de_{num}_{ano}_September.png">
+        </div>
+        <div class="grid-item">
+            <p class="month-name">Outubro</p>
+            <img width="250" src="./{num}/historico_de_falhas_de_{num}_{ano}_October.png">
+        </div>
+        <div class="grid-item">
+            <p class="month-name">Novembro</p>
+            <img width="250" src="./{num}/historico_de_falhas_de_{num}_{ano}_November.png">
+        </div>
+        <div class="grid-item">
+            <p class="month-name">Dezembro</p>
+            <img width="250" src="./{num}/historico_de_falhas_de_{num}_{ano}_December.png">
+        </div>
+    </div>
+</body>
+</html>
