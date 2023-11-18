@@ -3,6 +3,12 @@
 ## 📜 Descrição
 O script `Processamento_Python.py` faz parte de um conjunto de ferramentas Python 🐍 destinadas a extrair, processar e visualizar dados 📊 relacionados ao funcionamento de linhas de trem/metrô 🚆. Este script gerencia o fluxo de trabalho desde a extração de dados HTML até a criação de imagens representativas 🖼️.
 
+## Screenshots 📸
+<p float="left">
+   <img src="./Exemplos/Falha_Rubi_7_2023.jpeg" width="372" /> 
+  <img src="./Exemplos/Falha_Diamente_8_2023.jpeg" width="400" />
+</p>
+
 ## 🧩 Módulos
 O script utiliza os seguintes módulos personalizados:
 - `ExtrairHTML` 🌐
@@ -39,7 +45,7 @@ O script utiliza os seguintes módulos personalizados:
 
 ## 🐧 Para Linux e macOS
 
-### 🌟 `1_PrimeiroUso_IniciarProjetoParaLinuxEMacOS.sh`
+### 🌟 `IniciarProjetoParaLinuxEMacOS.sh`
 
 Este script facilita a instalação e execução do projeto em sistemas Linux e macOS. Siga estes passos para um início rápido:
 
@@ -47,11 +53,11 @@ Este script facilita a instalação e execução do projeto em sistemas Linux e 
 2. **Navegue até a Pasta do Projeto** 📁: Use o comando `cd` para chegar à pasta do script.
 3. **Torne o Script Executável** 🔐: Torne-o executável com:
    ```bash
-   chmod +x 1_PrimeiroUso_IniciarProjetoParaLinuxEMacOS.sh
+   chmod +x IniciarProjetoParaLinuxEMacOS.sh
    ```
 4. **Execute o Script** 🚀: Execute com:
    ```bash
-   ./1_PrimeiroUso_IniciarProjetoParaLinuxEMacOS.sh
+   ./IniciarProjetoParaLinuxEMacOS.sh
    ```
 O script vai:
 - Criar um ambiente virtual Python 🐍.
@@ -62,7 +68,7 @@ O script vai:
 
 ## 🪟 Para Windows
 
-### 🌟 `1_PrimeiroUso_IniciarProjetoParaWindows.bat`
+### 🌟 `IniciarProjetoParaWindows.bat`
 
 Para usuários Windows, o processo é adaptado para este ambiente:
 
@@ -70,7 +76,7 @@ Para usuários Windows, o processo é adaptado para este ambiente:
 2. **Navegue até a Pasta do Projeto** 📁: Use `cd` para chegar à pasta do projeto.
 3. **Execute o Script** 🚀: Digite o nome do script e pressione Enter:
    ```cmd
-   1_PrimeiroUso_IniciarProjetoParaWindows.bat
+   IniciarProjetoParaWindows.bat
    ```
 O script irá:
 - Criar um ambiente virtual Python 🐍.
